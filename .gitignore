@@ -1,0 +1,79 @@
+# ==============================
+# Compiled C files
+# ==============================
+
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+*.dll
+
+# Executables without extensions
+main
+a.out
+
+
+# ==============================
+# macOS
+# ==============================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+
+# ==============================
+# CLion / JetBrains
+# ==============================
+
+.idea/
+cmake-build-*/
+
+
+# ==============================
+# Debugging
+# ==============================
+
+*.dSYM/
+*.dSYM/
+
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+
+# ==============================
+# Build directories
+# ==============================
+
+build/
+bin/
+dist/
+
+
+# ==============================
+# CMake
+# ==============================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
