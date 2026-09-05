@@ -1,12 +1,12 @@
 ## 🚀 My C Programming Journey
 ## 👨‍💻 About Me
 Name: Anubhav Kukreti
-Course: BCA — Artificial Intelligence & Data Science 
+Course: BCA —> Artificial (Intelligence & Data Science)
 University: Graphic Era University (GEU)
 
 I am learning C programming from the fundamentals, building my understanding step by step through practice, problem-solving, and hands-on coding.
 
-This repository documents my journey of learning C — from writing my first Hello World program to understanding pointers, memory management, data structures, and more.
+This repository documents my journey of learning C  from writing my first Hello World program to understanding pointers, memory management, data structures, and more.
 
 ## 🎯 My Goal
 My goal is to develop a strong foundation in programming and computer science through C.
