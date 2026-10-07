@@ -126,6 +126,27 @@ void nine()
     }
 }
 
+// 10. Check whether a number is even or odd
+// Question: Take an integer and check whether it is even or odd.
+
+
+void ten()
+{
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0)
+    {
+        printf("Even\n");
+    }
+    else
+    {
+        printf("Odd\n");
+    }
+}
+
 
 
 
@@ -139,6 +160,8 @@ int main()
     six();
     seven();
     eight();
+    nine();
+    ten();
 
     return 0;
 }
