@@ -103,6 +103,31 @@ void eight()
     printf("Average: %.2f\n", average);
 }
 
+// 9. Check whether a number is positive, negative, or zero
+
+void nine() 
+{
+    int number;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    
+    if (number > 0) 
+    {
+        printf("The number is positive.\n");
+    } 
+    else if (number < 0) 
+    {
+        printf("The number is negative.\n");
+    } 
+    else 
+    {
+        printf("The number is zero.\n");
+    }
+}
+
+
+
 
 int main()
 {
