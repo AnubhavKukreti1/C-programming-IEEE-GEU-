@@ -147,6 +147,32 @@ void ten()
     }
 }
 
+// 11. Find the greater of two numbers
+// Question: Take two integers and print the larger number.
+
+
+void eleven()
+{
+    int num1, num2;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    if (num1 > num2)
+    {
+        printf("Greater: %d\n", num1);
+    }
+    else if (num2 > num1)
+    {
+        printf("Greater: %d\n", num2);
+    }
+    else
+    {
+        printf("Both numbers are equal.\n");
+    }
+}
+
+
 
 
 
@@ -162,6 +188,6 @@ int main()
     eight();
     nine();
     ten();
-
+    eleven();
     return 0;
 }
