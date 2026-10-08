@@ -173,7 +173,28 @@ void eleven()
 }
 
 
+// 12. Find the smallest of three numbers.
+// Take three integers and print the smallest number.
+void twelve()
+{
+    int a, b, c;
 
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a <= b && a <= c)
+    {
+        printf("Smallest: %d\n", a);
+    }
+    else if (b <= a && b <= c)
+    {
+        printf("Smallest: %d\n", b);
+    }
+    else
+    {
+        printf("Smallest: %d\n", c);
+    }
+}
 
 
 int main()
@@ -189,5 +210,6 @@ int main()
     nine();
     ten();
     eleven();
+    twelve();
     return 0;
 }
